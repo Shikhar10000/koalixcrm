@@ -1,4 +1,4 @@
-t"""
+"""
 WSGI config for test_koalixcrm project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
