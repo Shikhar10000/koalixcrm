@@ -13,7 +13,7 @@ from .base_settings import *
 
 # Update database configuration with $DATABASE_URL.
 import dj_database_url
-DATABASES = { 'default': dj_database_url.config(conn_max_age=500) }
+DATABASES = { 'default': dj_database_url.config(conn_max_age=500,default='postgres://plqvypjsypejcc:2d4a407cf85fa825ba18a655651dd24f34b02d96c489479df3598502c547d81a@ec2-46-137-156-205.eu-west-1.compute.amazonaws.com:5432/d3vl1t8f2jf16j') }
 FOP_EXECUTABLE = "/usr/bin/fop"
 GRAPPELLI_INDEX_DASHBOARD = 'projectsettings.dashboard.CustomIndexDashboard'
 ALLOWED_HOSTS = ['koalix-crm.herokuapp.com']
